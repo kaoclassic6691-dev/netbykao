@@ -59,7 +59,7 @@ export const PACKAGES: PackageGroup[] = [
     id: 'popular-1',
     eyebrow: 'แพ็กเกจยอดนิยม 1',
     title: 'เน็ต + กล้องวงจรปิด + ซิมมือถือ',
-    description: 'ครบจบในแพ็กเดียว เน็ตแรง พร้อมกล้องวงจรปิด กล่องดูทีวี และซิมมือถือ',
+    description: 'แพ็กเกจอินเทอร์เน็ตพร้อมสิทธิประโยชน์ตามเงื่อนไขโปรโมชั่น',
     icon: 'shield',
     featured: true,
     plans: [
