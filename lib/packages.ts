@@ -88,7 +88,7 @@ export const PACKAGES: PackageGroup[] = [
   },
   {
     id: 'entertainment',
-    eyebrow: 'แพ็��เกจ',
+    eyebrow: 'แพ็กเกจ',
     title: 'Entertainment Lover',
     description: 'ดูหนัง ฟังเพลง เติมเต็มทุกความบันเทิงด้วย NETFLIX',
     icon: 'clapperboard',
