@@ -68,7 +68,7 @@ export const PACKAGES: PackageGroup[] = [
       { speed: '500/500 Mbps', price: '599', detail: 'เน็ตพร้อมกล้องวงจรปิด' },
       { speed: '500/500 Mbps', price: '599', detail: 'เน็ตพร้อมกล่องดู TV' },
       { speed: '500/500 Mbps', price: '599', detail: 'เน็ตพร้อมกล่องดู TV และซิม' },
-      { speed: '500/500 Mbps', price: '698', detail: 'กล่องดู TV + ซิม + กล้องวงจรปิด', badge: 'คุ้มสุด' },
+      { speed: '500/500 Mbps', price: '698', detail: 'กล่องดู TV + ซิม + กล้องวงจรปิด' },
     ],
   },
   {
@@ -109,7 +109,7 @@ export const PACKAGES: PackageGroup[] = [
       { speed: '500/500 Mbps', price: '599', detail: 'NetLite · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 1 ช่อง HBO Max · WiFi6 Router AX3000' },
       { speed: '500/500 Mbps', price: '699', detail: 'NetInter · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 2 ช่อง HBO Max + Disney+ · WiFi6 Router AX3000' },
       { speed: '1000/500 Mbps', price: '799', detail: 'NetStandard · PLAYBOX 1 ตัว ชมฟรี TV และได้ส���ทธิรับชมเพิ่ม 4 ช่อง HBO Max, Viu, iQIYI, WeTV · WiFi6 Router AX3000' },
-      { speed: '1000/500 Mbps', price: '999', detail: 'NetSmart + ซิมมือถือ 10GB · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 4 ช่อง HBO Max, Viu, iQIYI, WeTV · WiFi6 Router AX3000 x2', badge: 'ครบสุด' },
+      { speed: '1000/500 Mbps', price: '999', detail: 'NetSmart + ซิมมือถือ 10GB · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 4 ช่อง HBO Max, Viu, iQIYI, WeTV · WiFi6 Router AX3000 x2' },
     ],
   },
   {
