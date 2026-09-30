@@ -93,7 +93,7 @@ export const PACKAGES: PackageGroup[] = [
     description: 'ดูหนัง ฟังเพลง เติมเต็มทุกความบันเทิงด้วย NETFLIX',
     icon: 'clapperboard',
     plans: [
-      { speed: '500/500 Mbps', price: '699', detail: 'NETFLIX แพ็กเ���จพื้นฐาน HD · รับชมพร้อมกัน 1 เครื่อง' },
+      { speed: '500/500 Mbps', price: '699', detail: 'NETFLIX แพ็กเกจพื้นฐาน HD · รับชมพร้อมกัน 1 เครื่อง' },
       { speed: '1000/500 Mbps', price: '799', detail: 'NETFLIX แพ็กเกจพื้นฐาน HD · รับชมพร้อมกัน 1 เครื่อง' },
       { speed: '1000/500 Mbps', price: '899', detail: 'NETFLIX แพ็กเกจมาตรฐาน FULL HD · รับชมพร้อมกัน 2 เครื่อง' },
       { speed: '1000/500 Mbps', price: '999', detail: 'NETFLIX แพ็กเกจพรีเมียม 4K Ultra HD · รับชมพร้อมกัน 4 เครื่อง', badge: '4K' },
@@ -108,7 +108,7 @@ export const PACKAGES: PackageGroup[] = [
     plans: [
       { speed: '500/500 Mbps', price: '599', detail: 'NetLite · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 1 ช่อง HBO Max · WiFi6 Router AX3000' },
       { speed: '500/500 Mbps', price: '699', detail: 'NetInter · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 2 ช่อง HBO Max + Disney+ · WiFi6 Router AX3000' },
-      { speed: '1000/500 Mbps', price: '799', detail: 'NetStandard · PLAYBOX 1 ตัว ชมฟรี TV และได้ส���ทธิรับชมเพิ่ม 4 ช่อง HBO Max, Viu, iQIYI, WeTV · WiFi6 Router AX3000' },
+      { speed: '1000/500 Mbps', price: '799', detail: 'NetStandard · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 4 ช่อง HBO Max, Viu, iQIYI, WeTV · WiFi6 Router AX3000' },
       { speed: '1000/500 Mbps', price: '999', detail: 'NetSmart + ซิมมือถือ 10GB · PLAYBOX 1 ตัว ชมฟรี TV และได้สิทธิรับชมเพิ่ม 4 ช่อง HBO Max, Viu, iQIYI, WeTV · WiFi6 Router AX3000 x2' },
     ],
   },
