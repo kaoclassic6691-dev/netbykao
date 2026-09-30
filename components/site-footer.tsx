@@ -15,7 +15,7 @@ export function SiteFooter() {
           </div>
           <p className="mt-1 text-xs font-medium text-muted-foreground">เซลล์ / ผู้ประสานงานสมัครบริการ AIS 3BB Fibre</p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-            ให้ข้อมูลแพ็กเกจอินเทอร์เน็ตบ้าน AIS 3BB Fibre และประสานงานตามคำขอเท่านั้น ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB ไม่รับชำระเงิน และไม่รับเอกสารสำคัญผ่านเว็บไซต์นี้
+            เว็บไซต์นี้เป็นเว็บไซต์ส่วนบุคคลของผู้ให้ข้อมูลและผู้ประสานงานอิสระ ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB และไม่ใช่ช่องทางรับชำระเงินของผู้ให้บริการ ให้ข้อมูลแพ็กเกจและประสานงานตามคำขอเท่านั้น
           </p>
           <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
             ผู้ดูแลเว็บไซต์: {CONTACT.contactPerson}<br />
