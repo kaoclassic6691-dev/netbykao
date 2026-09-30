@@ -15,7 +15,7 @@ export function SiteFooter() {
           </div>
           <p className="mt-1 text-xs font-medium text-muted-foreground">เซลล์ / ผู้ประสานงานสมัครบริการ AIS 3BB Fibre</p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-            ให้ข้อมูลแพ็กเกจอินเทอร์เน็ตบ้านที่อ้างอิงจากผู้ให้บริการ และประสานงานตามคำขอเท่านั้น ไม่ใช่เว็บไซต์ทางการ ไม่รับชำระเงิน และไม่รับเอกสารสำคัญผ่านเว็บไซต์นี้
+            ให้ข้อมูลแพ็กเกจอินเทอร์เน็ตบ้าน AIS 3BB Fibre และประสานงานตามคำขอเท่านั้น ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB ไม่รับชำระเงิน และไม่รับเอกสารสำคัญผ่านเว็บไซต์นี้
           </p>
           <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
             ผู้ดูแลเว็บไซต์: {CONTACT.contactPerson}<br />
@@ -70,7 +70,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-border py-6 text-center text-xs leading-relaxed text-muted-foreground">
-        <p className="mx-auto max-w-3xl px-4">{DISCLAIMER}</p>
+        <p className="mx-auto max-w-3xl px-4">หมายเหตุ: {DISCLAIMER}</p>
         <p className="mx-auto mt-3 max-w-3xl px-4">{TRADEMARK_NOTICE}</p>
         <p className="mt-3">
           © {new Date().getFullYear()} {CONTACT.name} · ผู้ให้ข้อมูลอิสระ · ประสานงานตามคำขอ
