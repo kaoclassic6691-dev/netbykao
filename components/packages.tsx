@@ -58,7 +58,7 @@ function PlanCard({ plan, accentAlt }: { plan: Plan; accentAlt: boolean }) {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-3 py-2 text-xs font-semibold text-foreground transition-colors group-hover:bg-primary group-hover:text-primary-foreground"
         >
-          สอบถามแพ็กเกจ
+          ตรวจสอบพื้นที่ให้บริการฟรี
         </a>
       </div>
     </div>
@@ -115,7 +115,7 @@ export function Packages() {
             เลือกแพ็กเกจที่ <span className="text-gradient">ใช่สำหรับคุณ</span>
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            ราคาและสิทธิประโยชน์เป็นไปตามโปรโมชั่นและเงื่อนไขของ AIS 3BB Fibre สอบถามและให้เราช่วยประสานงานการสมัครผ่านไลน์หรือโทรได้เลย
+            แนะนำและรวบรวมแพ็กเกจจากผู้ให้บริการอย่างเป็นทางการ ราคาและสิทธิประโยชน์เป็นไปตามโปรโมชั่นและเงื่อนไขของผู้ให้บริการ กรุณาตรวจสอบพื้นที่ให้บริการก่อนดำเนินการ
           </p>
           <p className="mt-3 text-center text-sm leading-relaxed text-muted-foreground">
             ราคาและสิทธิประโยชน์เป็นไปตามโปรโมชั่นและเงื่อนไขของผู้ให้บริการ กรุณาตรวจสอบรายละเอียดล่าสุดก่อนสมัคร · ราคาที่ยังไม่รวม VAT จะแสดงตามข้อมูลของแต่ละแพ็กเกจ
@@ -158,7 +158,7 @@ export function Packages() {
         <Reveal className="mt-10">
           <div className="rounded-2xl border border-border bg-secondary/40 p-6 md:p-8">
             <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
-              เงื่อนไขโปรโมชั่นและราคา
+              เงื่อนไขโปรโมชั่นและร��คา
             </h3>
             <ul className="mt-4 flex flex-col gap-2.5">
               {PROMO_CONDITIONS.map((c, i) => (
