@@ -158,7 +158,7 @@ export function Packages() {
         <Reveal className="mt-10">
           <div className="rounded-2xl border border-border bg-secondary/40 p-6 md:p-8">
             <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
-              เงื่อนไขโปรโมชั่นและร��คา
+              เงื่อนไขโปรโมชั่นและราคา
             </h3>
             <ul className="mt-4 flex flex-col gap-2.5">
               {PROMO_CONDITIONS.map((c, i) => (
