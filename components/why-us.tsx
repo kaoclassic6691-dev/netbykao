@@ -31,7 +31,7 @@ export function WhyUs() {
         <Reveal className="mx-auto mb-14 max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wide text-primary">ทำไมต้องเรา</span>
           <h2 className="mt-3 text-balance text-3xl font-extrabold md:text-5xl">
-            สมัครกับ <span className="text-gradient">เซลล์เก้า</span> ดียังไง
+            ประสานงานกับ <span className="text-gradient">เก้า ไฟเบอร์ เซอร์วิส</span> ดียังไง
           </h2>
         </Reveal>
 

@@ -28,14 +28,14 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:px-6 lg:grid-cols-2">
         <div>
           <div className="max-w-xl rounded-2xl border border-primary/30 bg-primary/10 p-4 text-sm leading-relaxed text-foreground">
-            <p className="font-semibold">เว็บไซต์นี้จัดทำโดยเซลล์ / ผู้ประสานงานอิสระ</p>
+            <p className="font-semibold">เก้า ไฟเบอร์ เซอร์วิส (Kao Fiber Service)</p>
             <p className="mt-1 text-muted-foreground">ให้ข้อมูลแพ็กเกจอินเทอร์เน็ตบ้าน AIS 3BB Fibre และประสานงานการสมัครบริการ เว็บไซต์นี้ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB</p>
           </div>
 
           <h1 className="mt-6 text-balance text-4xl font-extrabold leading-tight md:text-6xl">
             เน็ตบ้าน<span className="text-gradient">ไฟเบอร์แรง</span>
             <br />
-            รับข้อมูลแพ็กเกจจาก {CONTACT.name}
+            รับข้อมูลแพ็กเกจและประสานงานติดตั้งกับ {CONTACT.name}
           </h1>
 
           <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">

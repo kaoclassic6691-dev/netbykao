@@ -132,7 +132,7 @@ export function Packages() {
           <div className="flex flex-col items-center justify-between gap-6 rounded-3xl border border-border bg-gradient-to-r from-primary/15 to-accent/15 p-8 text-center md:flex-row md:text-left">
             <div>
               <h3 className="text-xl font-bold md:text-2xl">ไม่แน่ใจว่าแพ็กเกจไหนเหมาะกับบ้านคุณ?</h3>
-              <p className="mt-1 text-sm text-muted-foreground">ทักหาเซลล์เก้าได้เลย เราช่วยแนะนำแพ็กเกจที่เหมาะกับบ้านคุณและตรวจสอบพื้นที่ให้ฟรี</p>
+              <p className="mt-1 text-sm text-muted-foreground">สอบถามเก้า ไฟเบอร์ เซอร์วิสได้เลย เราช่วยให้ข้อมูลแพ็กเกจและตรวจสอบพื้นที่ให้โดยไม่มีค่าใช้จ่าย</p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <a
