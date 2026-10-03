@@ -38,8 +38,8 @@ export function SiteHeader() {
             <Wifi className="size-5" />
           </span>
             <span className="text-lg font-bold leading-none">
-            {CONTACT.name} | ผู้ประสานงานสมัครบริการ AIS 3BB Fibre
-            <span className="block text-[11px] font-medium text-muted-foreground">เว็บไซต์ส่วนบุคคลของเซลล์ / ผู้ประสานงานอิสระ ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB</span>
+            Kao Fiber Service (เก้า ไฟเบอร์ เซอร์วิส)
+            <span className="block text-[11px] font-medium text-muted-foreground">ผู้ประสานงานอิสระ ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB</span>
           </span>
         </a>
 

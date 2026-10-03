@@ -1,4 +1,3 @@
-import { DisclaimerBanner } from '@/components/disclaimer-banner'
 import { SiteHeader } from '@/components/site-header'
 import { Hero } from '@/components/hero'
 import { PromoMarquee } from '@/components/promo-marquee'
@@ -15,7 +14,6 @@ import { CookieConsent } from '@/components/cookie-consent'
 export default function Page() {
   return (
     <main className="relative min-h-screen">
-      <DisclaimerBanner />
       <SiteHeader />
       <Hero />
       <PromoMarquee />

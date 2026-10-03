@@ -11,16 +11,17 @@ export function SiteFooter() {
             <span className="flex size-10 items-center justify-center rounded-xl bg-primary text-primary-foreground">
               <Wifi className="size-5" />
             </span>
-            <span className="text-lg font-bold">{CONTACT.name}</span>
+            <span className="text-lg font-bold">Kao Fiber Service (เก้า ไฟเบอร์ เซอร์วิส)</span>
           </div>
-          <p className="mt-1 text-xs font-medium text-muted-foreground">เซลล์ / ผู้ประสานงานสมัครบริการ AIS 3BB Fibre</p>
+          <p className="mt-1 text-xs font-medium text-muted-foreground">ผู้ประสานงานอิสระด้านอินเทอร์เน็ตบ้าน</p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
             เว็บไซต์นี้เป็นเว็บไซต์ส่วนบุคคลของผู้ให้ข้อมูลและผู้ประสานงานอิสระ ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB และไม่ใช่ช่องทางรับชำระเงินของผู้ให้บริการ ให้ข้อมูลแพ็กเกจและประสานงานตามคำขอเท่านั้น
           </p>
           <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
             ผู้ดูแลเว็บไซต์: {CONTACT.contactPerson}<br />
             สถานะ: {CONTACT.role}<br />
-            โทร: {CONTACT.phoneDisplay}
+            โทร: {CONTACT.phoneDisplay}<br />
+            ที่อยู่สำนักงาน/ที่อยู่ติดต่อจำหน่าย: {CONTACT.address}
           </p>
         </div>
 
@@ -63,8 +64,12 @@ export function SiteFooter() {
                 <Mail className="size-4 text-primary" /> {CONTACT.email}
               </a>
             </li>
-            <li className="flex items-center gap-2">
-              <Clock className="size-4 text-primary" /> {CONTACT.hours}
+            <li className="flex items-start gap-2">
+              <Clock className="mt-0.5 size-4 shrink-0 text-primary" /> {CONTACT.hours}
+            </li>
+            <li className="flex items-start gap-2 leading-relaxed">
+              <Wifi className="mt-0.5 size-4 shrink-0 text-primary" />
+              <span><strong className="text-foreground">ที่อยู่สำนักงาน/ที่อยู่ติดต่อจำหน่าย:</strong> {CONTACT.address}</span>
             </li>
           </ul>
         </div>
