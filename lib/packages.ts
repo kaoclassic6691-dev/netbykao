@@ -1,7 +1,7 @@
 export const CONTACT = {
-  name: 'เซลล์เก้า',
+  name: 'เก้า ไฟเบอร์ เซอร์วิส',
   contactPerson: 'ศฤงคาร พุทธรักษา',
-  role: 'เซลล์ / ผู้ประสานงานสมัครบริการ AIS 3BB Fibre',
+  role: 'ผู้ประสานงานอิสระด้านอินเทอร์เน็ตบ้าน',
   phone: '0622014154',
   phoneDisplay: '062-201-4154',
   line: 'https://line.me/ti/p/fxpsLGpZHG',
@@ -9,9 +9,9 @@ export const CONTACT = {
   email: 'singkanputtaraksa@gmail.com',
   facebook: 'https://www.facebook.com/profile.php?id=61590509522310',
   hours: 'ทุกวัน 08.00–20.00 น.',
-  company: '',
-  serviceArea: '',
-  address: '',
+  company: 'Kao Fiber Service',
+  serviceArea: 'ให้บริการประสานงานออนไลน์ในพื้นที่ที่ผู้ให้บริการรองรับ',
+  address: 'ให้บริการแบบประสานงานออนไลน์ ไม่มีสำนักงานรับลูกค้า',
 }
 
 export const DISCLAIMER =
