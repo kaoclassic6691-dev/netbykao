@@ -18,7 +18,8 @@ export function SiteFooter() {
             เว็บไซต์นี้เป็นเว็บไซต์ส่วนบุคคลของผู้ให้ข้อมูลและผู้ประสานงานอิสระ ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB และไม่ใช่ช่องทางรับชำระเงินของผู้ให้บริการ ให้ข้อมูลแพ็กเกจและประสานงานตามคำขอเท่านั้น
           </p>
           <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
-            ผู้ดูแลเว็บไซต์: {CONTACT.contactPerson}<br />
+            ผู้ขาย: {CONTACT.contactPerson}<br />
+            Seller: {CONTACT.contactPersonEn}<br />
             สถานะ: {CONTACT.role}<br />
             โทร: {CONTACT.phoneDisplay}<br />
             ที่อยู่สำนักงาน/ที่อยู่ติดต่อจำหน่าย: {CONTACT.address}
@@ -41,7 +42,8 @@ export function SiteFooter() {
         <div>
           <h4 className="text-sm font-bold uppercase tracking-wide text-foreground">ติดต่อ</h4>
           <p className="mt-4 text-sm text-muted-foreground">
-            ผู้ประสานงาน: <span className="font-semibold text-foreground">{CONTACT.contactPerson}</span>
+            ผู้ขาย: <span className="font-semibold text-foreground">{CONTACT.contactPerson}</span><br />
+            <span className="pl-12 text-xs">Seller: {CONTACT.contactPersonEn}</span>
           </p>
           <ul className="mt-3 flex flex-col gap-3 text-sm text-muted-foreground">
             <li>
