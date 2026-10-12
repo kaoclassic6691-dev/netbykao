@@ -39,7 +39,7 @@ export function SiteHeader() {
           </span>
             <span className="text-lg font-bold leading-none">
             Kao Fiber Service (เก้า ไฟเบอร์ เซอร์วิส)
-            <span className="block text-[11px] font-medium text-muted-foreground">ผู้ประสานงานอิสระ ไม่ใช่เว็บไซต์ทางการของ AIS หรือ 3BB</span>
+            <span className="block text-[11px] font-medium text-muted-foreground">ผู้ขาย: {CONTACT.contactPerson} · {CONTACT.contactPersonEn}</span>
           </span>
         </a>
 

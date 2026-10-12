@@ -1,6 +1,7 @@
 export const CONTACT = {
   name: 'เก้า ไฟเบอร์ เซอร์วิส',
   contactPerson: 'ศฤงคาร พุทธรักษา',
+  contactPersonEn: 'Mr. Singkhan Phuttharaksa',
   role: 'ผู้ประสานงานอิสระด้านอินเทอร์เน็ตบ้าน',
   phone: '0622014154',
   phoneDisplay: '062-201-4154',
@@ -80,7 +81,7 @@ export const PACKAGES: PackageGroup[] = [
     plans: [
       { speed: '300/300 Mbps', price: '499', detail: 'สัญญา 12 เดือน' },
       { speed: '500/500 Mbps', price: '500', detail: 'สัญญา 24 เดือน' },
-      { speed: '500/500 Mbps', price: '600', detail: 'สัญญา 12 เดือน' },
+      { speed: '500/500 Mbps', price: '600', detail: 'สัญญา 12 เดือ���' },
       { speed: '1000/500 Mbps', price: '600', detail: 'สัญญา 24 เดือน' },
       { speed: '1000/500 Mbps', price: '700', detail: 'สัญญา 12 เดือน' },
       { speed: '1000/1000 Mbps', price: '1200', detail: 'สัญญา 12 เดือน' },
